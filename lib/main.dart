@@ -144,6 +144,19 @@ class _MyHomePageState extends State<MyHomePage> {
             ),
 
 
+
+            //自定义按钮外观
+            FlatButton(
+              color: Colors.blue,
+              highlightColor: Colors.blue[700],
+              colorBrightness: Brightness.dark,
+              splashColor: Colors.grey,
+              child: Text("Submit"),
+              shape:RoundedRectangleBorder(borderRadius: BorderRadius.circular(20.0)),
+              onPressed: () {},
+            )
+
+
           ],
         ),
       ),
