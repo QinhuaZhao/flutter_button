@@ -114,6 +114,15 @@ class _MyHomePageState extends State<MyHomePage> {
               child: Text("normal"),
               onPressed: (){},
             ),
+
+            //OutlineButton
+            OutlineButton(
+              child: Text("normal"),
+              onPressed: (){}
+            ),
+
+
+
           ],
         ),
       ),
