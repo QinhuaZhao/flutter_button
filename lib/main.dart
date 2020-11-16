@@ -126,6 +126,24 @@ class _MyHomePageState extends State<MyHomePage> {
               onPressed: (){}
             ),
 
+            //带图标的按钮
+            RaisedButton.icon(
+              icon: Icon(Icons.send),
+              label: Text("发送"),
+              onPressed: (){}
+            ),
+            FlatButton.icon(
+              icon: Icon(Icons.info),
+              label: Text("详情"),
+              onPressed: (){},
+            ),
+            OutlineButton.icon(
+              icon: Icon(Icons.add),
+              label: Text("添加"),
+              onPressed: null,
+            ),
+
+
           ],
         ),
       ),
