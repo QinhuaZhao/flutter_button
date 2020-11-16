@@ -108,6 +108,12 @@ class _MyHomePageState extends State<MyHomePage> {
                 child: Text("normal"),
                 onPressed: (){}
             ),
+
+            //FlatButton
+            FlatButton(
+              child: Text("normal"),
+              onPressed: (){},
+            ),
           ],
         ),
       ),
