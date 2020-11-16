@@ -121,7 +121,10 @@ class _MyHomePageState extends State<MyHomePage> {
               onPressed: (){}
             ),
 
-
+            IconButton(
+              icon: Icon(Icons.thumb_up),
+              onPressed: (){}
+            ),
 
           ],
         ),
